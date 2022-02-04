@@ -1,0 +1,40 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+    "name": "c",
+    "starSystem": "smallbug.TRAPPIST-1",
+    "Base": {
+        "hasAmbientLight": true,
+        "hasMapMarker": true,
+        "surfaceSize": 219,
+        "surfaceGravity": 13
+    },
+    "Spawn": {
+        "playerSpawnPoint": {"x": 8.912171, "y": -23.71677, "z": -236.9347},
+        "shipSpawnPoint": {"x": 8.912171, "y": -23.71677, "z": -236.9347},
+        "startWithSuit": true
+    },
+    "Orbit": {
+        "semiMajorAxis": 3160,
+        "primaryBody": "TRAPPIST-1",
+        "isTidallyLocked": true,
+        "showOrbitLine": true
+    },
+    "HeightMap": {
+        "heightMap": "planets/assets/c_heightmap.png",
+        "textureMap": "planets/assets/c_texturemap.png",
+        "minHeight": 190,
+        "maxHeight": 219
+    },
+    "Atmosphere": {
+        "size": 260,
+        "fogSize": 250,
+        "cloudTint": {"r" : 171, "g" : 165, "b" : 102, "a" : 255},
+        "cloud": "planets/assets/c_clouds.png",
+        "useBasicCloudShader": false,
+        "hasOxygen": false,
+        "fogTint": {"r" : 171, "g" : 135, "b" : 102, "a" : 255},
+        "fogDensity": 1,
+        "hasAtmosphere": true,
+        "atmosphereTint": {"r" : 255, "g" : 200, "b" : 100, "a" : 255}
+    }
+}

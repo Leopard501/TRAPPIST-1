@@ -8,13 +8,8 @@
         "surfaceSize": 224,
         "surfaceGravity": 14
     },
-    "Spawn": {
-        "playerSpawnPoint": {"x": 6.912171, "y": -21.71677, "z": -234.9347},
-        "shipSpawnPoint": {"x": 6.912171, "y": -21.71677, "z": -234.9347},
-        "startWithSuit": true
-    },
     "Orbit": {
-        "semiMajorAxis": 2200,
+        "semiMajorAxis": 2308,
         "primaryBody": "TRAPPIST-1",
         "isTidallyLocked": true,
         "showOrbitLine": true
@@ -32,7 +27,7 @@
         "cloudTint": {"r" : 255, "g" : 50, "b" : 0, "a" : 255},
         "cloud": "planets/assets/b_clouds.png",
         "useBasicCloudShader": false,
-        "hasOxygen": true,
+        "hasOxygen": false,
         "fogTint": {"r" : 255, "g" : 50, "b" : 0, "a" : 255},
         "fogDensity": 1,
         "hasAtmosphere": true,
