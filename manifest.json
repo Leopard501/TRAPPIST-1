@@ -1,8 +1,8 @@
 {
   "filename": "NewHorizonsConfig.dll",
-  "author": "[your name]",
-  "name": "[your readable mod name]",
-  "uniqueName": "[your name].[your unique mod ID]",
+  "author": "Small Bug",
+  "name": "TRAPPIST-1",
+  "uniqueName": "smallbug.trappist-1",
   "version": "0.0.0",
   "owmlVersion": "2.1.0",
   "dependencies": [ "xen.NewHorizons" ]
