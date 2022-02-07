@@ -1,0 +1,44 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+    "name": "d",
+    "starSystem": "smallbug.TRAPPIST-1",
+    "Base": {
+        "hasAmbientLight": true,
+        "hasMapMarker": true,
+        "surfaceSize": 156,
+        "surfaceGravity": 10
+    },
+    "Spawn": {
+        "playerSpawnPoint": {"x": 0, "y": 0, "z": 200},
+        "shipSpawnPoint": {"x": 0, "y": 0, "z": 200},
+        "startWithSuit": true
+    },
+    "Orbit": {
+        "semiMajorAxis": 4454,
+        "primaryBody": "TRAPPIST-1",
+        "isTidallyLocked": true,
+        "showOrbitLine": true
+    },
+    "HeightMap": {
+        "heightMap": "planets/assets/d_heightmap.png",
+        "textureMap": "planets/assets/d_texturemap.png",
+        "maxHeight": 150,
+        "minHeight": 110
+    },
+    "Atmosphere": {
+        "size": 200,
+        "hasOxygen": true,
+        "hasAtmosphere": true,
+        "atmosphereTint": {"R": 0, "G": 120, "B": 255}
+    },
+    "Water": {"size": 156},
+    "Props": {
+        "comment": "ok, I give up for now. todo: make work",
+        "scatter" : [
+            {
+                "path" : "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_1/Props_DreamZone_1/OtherComponentsGroup/Trees_Z1/DreamHouseIsland/Tree_DW_M_Var",
+                "count" : 50
+            }
+        ]
+    }
+}
