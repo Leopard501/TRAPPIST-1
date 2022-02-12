@@ -29,7 +29,7 @@
         "size": 200,
         "hasOxygen": true,
         "hasAtmosphere": true,
-        "atmosphereTint": {"R": 0, "G": 120, "B": 255}
+        "atmosphereTint": {"R": 40, "G": 80, "B": 255}
     },
     "Water": {"size": 156},
     "Props": {
