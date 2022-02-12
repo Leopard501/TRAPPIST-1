@@ -33,11 +33,84 @@
     },
     "Water": {"size": 156},
     "Props": {
-        "comment": "ok, I give up for now. todo: make work",
-        "scatter" : [
+        "details": [
             {
-                "path" : "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_1/Props_DreamZone_1/OtherComponentsGroup/Trees_Z1/DreamHouseIsland/Tree_DW_M_Var",
-                "count" : 50
+                "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot/Jellyfish_Body/Beast_GD_Jellyfish_v4",
+                "position": {"x": 43, "y": -137, "z": 23},
+                "alignToNormal": true,
+                "scale": 0.2
+            },
+            {
+                "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot/Jellyfish_Body/Beast_GD_Jellyfish_v4",
+                "position": {"x": 109, "y": -56, "z": 82},
+                "alignToNormal": true,
+                "scale": 0.2
+            },
+            {
+                "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot/Jellyfish_Body/Beast_GD_Jellyfish_v4",
+                "position": {"x": 55, "y": 21, "z": 139},
+                "alignToNormal": true,
+                "scale": 0.2
+            },
+            {
+                "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot/Jellyfish_Body/Beast_GD_Jellyfish_v4",
+                "position": {"x": -18, "y": -45, "z": 129},
+                "alignToNormal": true,
+                "scale": 0.2
+            },
+            {
+                "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot/Jellyfish_Body/Beast_GD_Jellyfish_v4",
+                "position": {"x": -97, "y": -67, "z": 97},
+                "alignToNormal": true,
+                "scale": 0.2
+            },
+            {
+                "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot/Jellyfish_Body/Beast_GD_Jellyfish_v4",
+                "position": {"x": -93, "y": -113, "z": -8},
+                "alignToNormal": true,
+                "scale": 0.2
+            },
+            {
+                "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot/Jellyfish_Body/Beast_GD_Jellyfish_v4",
+                "position": {"x": -8, "y": -115, "z": -86},
+                "alignToNormal": true,
+                "scale": 0.2
+            },
+            {
+                "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot/Jellyfish_Body/Beast_GD_Jellyfish_v4",
+                "position": {"x": 30, "y": -9, "z": -140},
+                "alignToNormal": true,
+                "scale": 0.2
+            },
+            {
+                "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot/Jellyfish_Body/Beast_GD_Jellyfish_v4",
+                "position": {"x": -33, "y": 78, "z": -116},
+                "alignToNormal": true,
+                "scale": 0.2
+            },
+            {
+                "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot/Jellyfish_Body/Beast_GD_Jellyfish_v4",
+                "position": {"x": -120, "y": 59, "z": -72},
+                "alignToNormal": true,
+                "scale": 0.2
+            },
+            {
+                "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot/Jellyfish_Body/Beast_GD_Jellyfish_v4",
+                "position": {"x": -118, "y": 76, "z": 41},
+                "alignToNormal": true,
+                "scale": 0.2
+            },
+            {
+                "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot/Jellyfish_Body/Beast_GD_Jellyfish_v4",
+                "position": {"x": -51, "y": 141, "z": -1},
+                "alignToNormal": true,
+                "scale": 0.2
+            },
+            {
+                "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot/Jellyfish_Body/Beast_GD_Jellyfish_v4",
+                "position": {"x": 49, "y": 116, "z": -76},
+                "alignToNormal": true,
+                "scale": 0.2
             }
         ]
     }
