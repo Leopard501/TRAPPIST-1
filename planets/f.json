@@ -1,0 +1,73 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+    "name": "f",
+    "starSystem": "smallbug.TRAPPIST-1",
+    "Base": {
+        "hasAmbientLight": true,
+        "hasMapMarker": true,
+        "surfaceSize": 209,
+        "surfaceGravity": 10
+    },
+    "Spawn": {
+        "playerSpawnPoint": {"x": 0, "y": 0, "z": 220},
+        "shipSpawnPoint": {"x": 0, "y": 0, "z": 220},
+        "startWithSuit": true
+    },
+    "Orbit": {
+        "semiMajorAxis": 7698,
+        "primaryBody": "TRAPPIST-1",
+        "isTidallyLocked": true,
+        "showOrbitLine": true
+    },
+    "HeightMap": {
+        "heightMap": "planets/assets/f_heightmap.png",
+        "textureMap": "planets/assets/f_texturemap.png",
+        "maxHeight": 215,
+        "minHeight": 170
+    },
+    "Atmosphere": {
+        "size": 220,
+        "hasOxygen": true,
+        "hasAtmosphere": true,
+        "hasSnow": true,
+        "atmosphereTint": {"R": 0, "G": 20, "B": 150, "A": 150}
+    },
+    "Water": {
+        "tint": {"R": 45, "G": 45, "B": 140},
+        "size": 205
+    },
+    "Props": {
+        "details": [
+            {
+                "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot/Jellyfish_Body/Beast_GD_Jellyfish_v4",
+                "position": {"x": 31, "y": -183, "z": -58},
+                "alignToNormal": true,
+                "scale": 0.2
+            },
+            {
+                "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot/Jellyfish_Body/Beast_GD_Jellyfish_v4",
+                "position": {"x": 48, "y": -169, "z": 84},
+                "alignToNormal": true,
+                "scale": 0.2
+            },
+            {
+                "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot/Jellyfish_Body/Beast_GD_Jellyfish_v4",
+                "position": {"x": -12, "y": -140, "z": 124},
+                "alignToNormal": true,
+                "scale": 0.2
+            },
+            {
+                "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot/Jellyfish_Body/Beast_GD_Jellyfish_v4",
+                "position": {"x": -50, "y": -182, "z": 15},
+                "alignToNormal": true,
+                "scale": 0.2
+            },
+            {
+                "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot/Jellyfish_Body/Beast_GD_Jellyfish_v4",
+                "position": {"x": -124, "y": -146, "z": -37},
+                "alignToNormal": true,
+                "scale": 0.2
+            }
+        ]
+    }
+}

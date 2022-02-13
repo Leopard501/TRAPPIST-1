@@ -8,11 +8,6 @@
         "surfaceSize": 156,
         "surfaceGravity": 10
     },
-    "Spawn": {
-        "playerSpawnPoint": {"x": 0, "y": 0, "z": 200},
-        "shipSpawnPoint": {"x": 0, "y": 0, "z": 200},
-        "startWithSuit": true
-    },
     "Orbit": {
         "semiMajorAxis": 4454,
         "primaryBody": "TRAPPIST-1",
