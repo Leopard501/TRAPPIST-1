@@ -22,8 +22,8 @@
     },
     "Lava": {"size": 230},
     "Atmosphere": {
-        "size": 300,
-        "fogSize": 260,
+        "size": 350,
+        "fogSize": 280,
         "cloudTint": {"r" : 255, "g" : 50, "b" : 0, "a" : 255},
         "cloud": "planets/assets/b_clouds.png",
         "useBasicCloudShader": false,
