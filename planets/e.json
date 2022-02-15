@@ -8,6 +8,11 @@
         "surfaceSize": 184,
         "surfaceGravity": 10
     },
+    "Spawn": {
+        "playerSpawnPoint": {"x": 124.9258, "y": -110.7529, "z": 89.19987},
+        "shipSpawnPoint": {"x": 124.9258, "y": -110.7529, "z": 89.19987},
+        "startWithSuit": true
+    },
     "Orbit": {
         "semiMajorAxis": 5850,
         "primaryBody": "TRAPPIST-1",
@@ -30,8 +35,35 @@
         "tint": {"R": 0, "G": 150, "B": 255, "A": 150},
         "size": 184
     },
+    "Signal": {
+        "signals": [
+            {
+                "position": {"x": 80.67891, "y": -46.22113, "z": 160.575},
+                "frequency": "Radio",
+                "name": "Rover e",
+                "audioClip": "OW_PR_ProbeInAirSound",
+                "sourceRadius": 2,
+                "detectionRadius": 25,
+                "identificationRadius": 6,
+                "onlyAudibleToScope": true
+            }
+        ]
+    },
     "Props": {
+        "dialogue": [
+            {
+                "position": {"x": 80.67891, "y": -46.22113, "z": 161.575},
+                "xmlFile": "planets/assets/e.xml"
+            }
+        ],
         "details": [
+            {
+                "assetBundle" : "planets/assetbundle/rss",
+                "path" : "Assets/RSS/Prefabs/Rover.prefab",
+                "position" : {"x": 80.67891, "y": -46.22113, "z": 160.575},
+                "alignToNormal" : true
+            },
+
             {
                 "path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_1/Props_DreamZone_1/OtherComponentsGroup/Trees_Z1/DreamHouseIsland/Tree_DW_M_Var",
                 "position": {"x": -88.76468, "y": 3.670151, "z": 160.315},

@@ -80,10 +80,9 @@
     <DialogueNode>
         <Name>Life</Name>
         <Dialogue>
-            <Page>TRAPPIST-1d is a good candidate for finding extraterrestrial life due to the amount of light it receives and large amount of water.</Page>
+            <Page>TRAPPIST-1d is a good candidate for finding extraterrestrial life due to the amount of light it receives and its large amount of water.</Page>
             <Page>However, whether it actually has life is probably impossible to determine with our current technology.</Page>
-            <Page>It would certainly have a lot to overcome,</Page>
-            <Page>some scientists believe that life may never form on ocean planets due to the lack of tidal zones.</Page>
+            <Page>It would certainly have a lot to overcome, some scientists believe that life may never form on ocean planets due to the lack of tidal zones.</Page>
             <Page>Other's believe the reddish, mostly infrared light coming from TRAPPIST-1 may make photosynthesis difficult.</Page>
             <Page>Only time will tell.</Page>
         </Dialogue>

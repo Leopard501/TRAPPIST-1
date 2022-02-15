@@ -27,8 +27,35 @@
         "atmosphereTint": {"R": 40, "G": 80, "B": 255}
     },
     "Water": {"size": 156},
+    "Signal": {
+        "signals": [
+            {
+                "position": {"x": -101.2326, "y": -59.35938, "z": -61.94343},
+                "frequency": "Radio",
+                "name": "Rover d",
+                "audioClip": "OW_PR_ProbeInAirSound",
+                "sourceRadius": 2,
+                "detectionRadius": 25,
+                "identificationRadius": 6,
+                "onlyAudibleToScope": true
+            }
+        ]
+    },
     "Props": {
+        "dialogue": [
+            {
+                "position": {"x": -102.2326, "y": -59.35938, "z": -61.94343},
+                "xmlFile": "planets/assets/d.xml"
+            }
+        ],
         "details": [
+            {
+                "assetBundle" : "planets/assetbundle/rss",
+                "path" : "Assets/RSS/Prefabs/Rover.prefab",
+                "position" : {"x": -101.2326, "y": -59.35938, "z": -61.94343},
+                "alignToNormal" : true
+            },
+
             {
                 "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot/Jellyfish_Body/Beast_GD_Jellyfish_v4",
                 "position": {"x": 43, "y": -137, "z": 23},

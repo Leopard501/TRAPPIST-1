@@ -30,10 +30,10 @@
     <DialogueNode>
         <Name>Overview</Name>
         <Dialogue>
-            <Page>TRAPPIST-1b is a terrestrial planet orbiting extremely close to TRAPPIST-1, about 1% of earths orbital distance.</Page>
+            <Page>TRAPPIST-1b is a terrestrial planet orbiting extremely close to TRAPPIST-1, about 1% of Earth's orbital distance.</Page>
             <Page>It receives 4 times the amount of light as Earth, putting it well outside the habitable zone.</Page>
             <Page>Due to it's low density, it's likely covered by an enormous amount of water, most likely as vapor.</Page>
-            <Page>It probably has a massive incredibly thick greenhouse atmosphere, much larger and hotter than that of venus.</Page>
+            <Page>It probably has a massive incredibly thick greenhouse atmosphere, much larger and hotter than that of Venus.</Page>
         </Dialogue>
         <DialogueOptionsList>
             <DialogueOption>
@@ -48,8 +48,8 @@
         <Dialogue>
             <Page>TRAPPIST-1b is likely to have a thick greenhouse atmosphere, possibly even thicker than Venus's, heating the surface to well over 1500 kelvin.</Page>
             <Page>Due to the planet's low density, a mostly water vapor atmosphere is likely, although a carbon dioxide or pure oxygen atmosphere has not been ruled out.</Page>
-            <Page>A Venus-like CO2 atmosphere could be over 30 km tall, in comparison to Venus's 16 km.</Page>
-            <Page>A water vapor atmosphere would have to be even larger, over 100 km tall.</Page>
+            <Page>A Venus-like CO2 atmosphere could be over 30 km tall, in comparison to Venus's 16 km, and a water vapor atmosphere would have to be even larger, over 100 km tall.</Page>
+            <Page></Page>
         </Dialogue>
         <DialogueOptionsList>
             <DialogueOption>
@@ -62,7 +62,7 @@
     <DialogueNode>
         <Name>Lava</Name>
         <Dialogue>
-            <Page>All terrestrial planets start there lives completely covered in global magma ocean, and TRAPPIST-1b is no exception.</Page>
+            <Page>All terrestrial planets start there lives completely covered in a global magma ocean, and TRAPPIST-1b is no exception.</Page>
             <Page>They usually cool off and solidify after some time, but due to its extreme surface temperature, planet b may have retained its magma ocean into the modern day.</Page>
         </Dialogue>
         <DialogueOptionsList>

@@ -31,5 +31,35 @@
         "fogDensity": 1,
         "hasAtmosphere": true,
         "atmosphereTint": {"r" : 255, "g" : 200, "b" : 100, "a" : 255}
+    },
+    "Signal": {
+        "signals": [
+            {
+                "position": {"x": 57.90136, "y": 129.1138, "z": 149.9056},
+                "frequency": "Radio",
+                "name": "Rover c",
+                "audioClip": "OW_PR_ProbeInAirSound",
+                "sourceRadius": 2,
+                "detectionRadius": 25,
+                "identificationRadius": 6,
+                "onlyAudibleToScope": true
+            }
+        ]
+    },
+    "Props": {
+        "dialogue": [
+            {
+                "position": {"x": 57.90136, "y": 130, "z": 151},
+                "xmlFile": "planets/assets/c.xml"
+            }
+        ],
+        "details": [
+            {
+                "assetBundle" : "planets/assetbundle/rss",
+                "path" : "Assets/RSS/Prefabs/Rover.prefab",
+                "position" : {"x": 57.90136, "y": 129.1138, "z": 149.9056},
+                "alignToNormal" : true
+            }
+        ]
     }
 }
