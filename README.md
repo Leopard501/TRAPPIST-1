@@ -9,3 +9,5 @@
   - https://www.aanda.org/articles/aa/full_html/2018/05/aa32233-17/aa32233-17.html#S16
 - Venus atmosphere  
   - https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html  
+- https://www.liebertpub.com/doi/10.1089/ast.2020.2277
+- https://www.aanda.org/articles/aa/full_html/2018/05/aa32233-17/aa32233-17.html

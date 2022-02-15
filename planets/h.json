@@ -1,0 +1,52 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+    "name": "h",
+    "starSystem": "smallbug.TRAPPIST-1",
+    "Base": {
+        "hasAmbientLight": true,
+        "hasMapMarker": true,
+        "surfaceSize": 155,
+        "surfaceGravity": 7
+    },
+    "Orbit": {
+        "semiMajorAxis": 12378,
+        "primaryBody": "TRAPPIST-1",
+        "isTidallyLocked": true,
+        "showOrbitLine": true
+    },
+    "HeightMap": {
+        "heightMap": "planets/assets/h_heightmap.png",
+        "textureMap": "planets/assets/h_texturemap.png",
+        "minHeight": 110,
+        "maxHeight": 155
+    },
+    "Props": {
+        "details": [
+            {
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_2/Crater_2_Geysers/QuantumGeyser_Small/Geyser_Quantum",
+                "position": {"x": 14.6039, "y": -136.5306, "z": 44.062},
+                "alignToNormal": true
+            },
+            {
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_2/Crater_2_Geysers/QuantumGeyser_Small/Geyser_Quantum",
+                "position": {"x": 46.06492, "y": -136.9445, "z": -10.20329},
+                "alignToNormal": true
+            },
+            {
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_2/Crater_2_Geysers/QuantumGeyser_Small/Geyser_Quantum",
+                "position": {"x": 125.3298, "y": -33.89057, "z": 65.67601},
+                "alignToNormal": true
+            },
+            {
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_2/Crater_2_Geysers/QuantumGeyser_Small/Geyser_Quantum",
+                "position": {"x": 95.7558, "y": 90.83143, "z": 61.59458},
+                "alignToNormal": true
+            },
+            {
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_2/Crater_2_Geysers/QuantumGeyser_Small/Geyser_Quantum",
+                "position": {"x": -127.0082, "y": -49.0346, "z": 47.58002},
+                "alignToNormal": true
+            }
+        ]
+    }
+}
