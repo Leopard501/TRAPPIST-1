@@ -1,0 +1,14 @@
+Perseverance Rover
+{ "assetBundle" : "planets/assetbundle/rss", "path" : "Assets/RSS/Prefabs/Rover.prefab", "position" : {"x": 146.5099, "y": -10.83688, "z": -36.02736}, "alignToNormal" : true }
+
+Lunar Lander
+{ "assetBundle" : "planets/assetbundle/rss", "path" : "Assets/RSS/Prefabs/lunarlander.prefab", "position" : {"x": -74.21288, "y": -50.54135, "z": 46.29598}, "alignToNormal" : true, "scale": 12 }
+
+Cassini
+{ "assetBundle" : "planets/assetbundle/rss", "path" : "Assets/RSS/Prefabs/Cassini.prefab" }
+
+Russel's Teapot
+{ "assetBundle" : "planets/assetbundle/rss", "path" : "Assets/RSS/Prefabs/Teapot.prefab" }
+
+Voyager
+{ "assetBundle" : "planets/assetbundle/rss", "path" : "Assets/RSS/Prefabs/Voyager.prefab" }
