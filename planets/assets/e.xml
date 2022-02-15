@@ -1,0 +1,92 @@
+<DialogueTree>
+    <NameField>e</NameField>
+
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>TRAPPIST-1e is the fourth planet around the star TRAPPIST-1.</Page>
+        </Dialogue>
+        <DialogueOptionList>
+            <DialogueOption>
+                <Text>Overview</Text>
+                <DialogueTarget>Overview</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>Atmosphere</Text>
+                <DialogueTarget>Atmosphere</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>Water</Text>
+                <DialogueTarget>Water</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>Life</Text>
+                <DialogueTarget>Life</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Overview</Name>
+        <Dialogue>
+            <Page>TRAPPIST-1e is an Earth-like terrestrial planet orbiting on the outer edge of TRAPPIST-1's habitable zone.</Page>
+            <Page>It receives about 60% the light Earth does, putting it on the outer edge of the habitable zone.</Page>
+            <Page>Assuming a compact atmosphere, it is warm enough for liquid water to pool on it's surface.</Page>
+            <Page>It is one of the best candidates for extraterrestrial life found so far.</Page>
+        </Dialogue>
+        <DialogueOptionList>
+            <DialogueOption>
+                <Text>Back</Text>
+                <DialogueTarget>Start</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Atmosphere</Name>
+        <Dialogue>
+            <Page>TRAPPIST-1e does not have a Venus-like greenhouse atmosphere like many other planets in the TRAPPIST-1 system.</Page>
+            <Page>It could have a compact, Earth-like atmosphere, making it a good place for finding life.</Page>
+            <Page>Or it may instead have a thin Mars-like atmosphere, or no atmosphere at all.</Page>
+        </Dialogue>
+        <DialogueOptionList>
+            <DialogueOption>
+                <Text>Back</Text>
+                <DialogueTarget>Start</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Water</Name>
+        <Dialogue>
+            <Page>TRAPPIST-1e is one of two planets in the system assumed to not contain significant amount of water.</Page>
+            <Page>That said, it may still have enough water to completely coat it's surface.</Page>
+            <Page>Due to the heat of the day side and cold of the night side, liquid water may only be possible along the terminator.</Page>
+            <Page>However, the atmosphere may be able to distribute hear across the planet's surface, allowing liquid water anywhere on the surface.</Page>
+        </Dialogue>
+        <DialogueOptionList>
+            <DialogueOption>
+                <Text>Back</Text>
+                <DialogueTarget>Start</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Life</Name>
+        <Dialogue>
+            <Page>TRAPPIST-1e is one of the best candidates for extraterrestrial life found so far.</Page>
+            <Page>It (might) have all the components, Earth-like mass and radius, Earth-like atmosphere and a (relatively) moderate amount of liquid water.</Page>
+            <Page>If life does exist on this planet, any plant life could not be green like as depicted due to the dim, reddish light coming from TRAPPIST-1, it would probably be black.</Page>
+        </Dialogue>
+        <DialogueOptionList>
+            <DialogueOption>
+                <Text>Back</Text>
+                <DialogueTarget>Start</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionList>
+    </DialogueNode>
+
+</DialogueTree>

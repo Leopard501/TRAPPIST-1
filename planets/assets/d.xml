@@ -1,0 +1,94 @@
+<DialogueTree>
+    <NameField>d</NameField>
+
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>TRAPPIST-1d is the third planet around the star TRAPPIST-1.</Page>
+        </Dialogue>
+        <DialogueOptionList>
+            <DialogueOption>
+                <Text>Overview</Text>
+                <DialogueTarget>Overview</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>Atmosphere</Text>
+                <DialogueTarget>Atmosphere</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>Oceans</Text>
+                <DialogueTarget>Oceans</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>Life</Text>
+                <DialogueTarget>Life</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Overview</Name>
+        <Dialogue>
+            <Page>TRAPPIST-1d is a small terrestrial planet orbiting near the middle of TRAPPIST-1's habitable zone.</Page>
+            <Page>It receives about 110% the light earth does, putting it just before the middle of the habitable zone.</Page>
+            <Page>It also likely contains a significant amount of water, hundreds of times all of Earth's oceans combined, although what state that water is in is hotly debated.</Page>
+            <Page>Because of this, it may be a possible candidate for finding extraterrestrial life.</Page>
+        </Dialogue>
+        <DialogueOptionList>
+            <DialogueOption>
+                <Text>Back</Text>
+                <DialogueTarget>Start</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Atmosphere</Name>
+        <Dialogue>
+            <Page>The nature of TRAPPIST-1d's atmosphere is a matter of some debate.</Page>
+            <Page>Because of the solar radiation coming off of TRAPPIST-1, many scientists have reason to believe it has a thick, Venus like water vapor atmosphere.</Page>
+            <Page>However, this is not certain, and it may also have a compact Earth-like atmosphere like as depicted.</Page>
+        </Dialogue>
+        <DialogueOptionList>
+            <DialogueOption>
+                <Text>Back</Text>
+                <DialogueTarget>Start</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Oceans</Name>
+        <Dialogue>
+            <Page>If TRAPPIST-1d has a suitable atmosphere, it's surface is likely entirely covered with a water ocean over a hundred kilometers deep.</Page>
+            <Page>It may be uniformly liquid like as depicted, or it could be frozen on the night side, depending on how the atmosphere is able to distribute heat.</Page>
+            <Page>Regardless, the water near the seafloor may be very warm due to tidal hearing from the nearby planets.</Page>
+        </Dialogue>
+        <DialogueOptionList>
+            <DialogueOption>
+                <Text>Back</Text>
+                <DialogueTarget>Start</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Life</Name>
+        <Dialogue>
+            <Page>TRAPPIST-1d is a good candidate for finding extraterrestrial life due to the amount of light it receives and large amount of water.</Page>
+            <Page>However, whether it actually has life is probably impossible to determine with our current technology.</Page>
+            <Page>It would certainly have a lot to overcome,</Page>
+            <Page>some scientists believe that life may never form on ocean planets due to the lack of tidal zones.</Page>
+            <Page>Other's believe the reddish, mostly infrared light coming from TRAPPIST-1 may make photosynthesis difficult.</Page>
+            <Page>Only time will tell.</Page>
+        </Dialogue>
+        <DialogueOptionList>
+            <DialogueOption>
+                <Text>Back</Text>
+                <DialogueTarget>Start</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionList>
+    </DialogueNode>
+
+</DialogueTree>

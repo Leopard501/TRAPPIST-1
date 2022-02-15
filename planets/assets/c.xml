@@ -1,0 +1,51 @@
+<DialogueTree>
+    <NameField>c</NameField>
+
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryConditon>DEFAULT</EntryConditon>
+        <Dialogue>
+            <Page>TRAPPIST-1c is the second planet around the star TRAPPIST-1.</Page>
+        </Dialogue>
+        <DialogueOptionList>
+            <DialogueOption>
+                <Text>Overview</Text>
+                <DialogueTarget>Overview</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>Atmosphere</Text>
+                <DialogueTarget>Atmosphere</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Overview</Name>
+        <Dialogue>
+            <Page>TRAPPIST-1c is a terrestrial planet, slightly larger and more massive than Earth, the most massive planet in the TRAPPIST-1 system.</Page>
+            <Page>Because of it's moderate density, it's likely covered in a thick, Benus-like atmosphere.</Page>
+            <Page>Although it's atmosphere is likely thinner than that of planet b.</Page>
+        </Dialogue>
+        <DialogueOptionList>
+            <DialogueOption>
+                <Text>Back</Text>
+                <DialogueTarget>Start</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Atmosphere</Name>
+        <Dialogue>
+            <Page>Due to its featureless absorption spectra and moderate density, it's likely covered in a thick, Venus-like atmosphere.</Page>
+            <Page>Its atmosphere is likely thinner than that of planet b, and made of either carbon dioxide or water vapor.</Page>
+        </Dialogue>
+        <DialogueOptionList>
+            <DialogueOption>
+                <Text>Back</Text>
+                <DialogueTarget>Start</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionList>
+    </DialogueNode>
+
+</DialogueTree>
