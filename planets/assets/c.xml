@@ -1,5 +1,5 @@
 <DialogueTree>
-    <NameField>c</NameField>
+    <NameField>Rover</NameField>
 
     <DialogueNode>
         <Name>Start</Name>
@@ -7,7 +7,7 @@
         <Dialogue>
             <Page>TRAPPIST-1c is the second planet around the star TRAPPIST-1.</Page>
         </Dialogue>
-        <DialogueOptionList>
+        <DialogueOptionsList>
             <DialogueOption>
                 <Text>Overview</Text>
                 <DialogueTarget>Overview</DialogueTarget>
@@ -16,7 +16,11 @@
                 <Text>Atmosphere</Text>
                 <DialogueTarget>Atmosphere</DialogueTarget>
             </DialogueOption>
-        </DialogueOptionList>
+            <DialogueOption>
+                <Text>[Exit]</Text>
+                <DialogueTarget>Exit</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
     </DialogueNode>
 
     <DialogueNode>
@@ -26,12 +30,12 @@
             <Page>Because of it's moderate density, it's likely covered in a thick, Benus-like atmosphere.</Page>
             <Page>Although it's atmosphere is likely thinner than that of planet b.</Page>
         </Dialogue>
-        <DialogueOptionList>
+        <DialogueOptionsList>
             <DialogueOption>
                 <Text>Back</Text>
                 <DialogueTarget>Start</DialogueTarget>
             </DialogueOption>
-        </DialogueOptionList>
+        </DialogueOptionsList>
     </DialogueNode>
 
     <DialogueNode>
@@ -40,12 +44,19 @@
             <Page>Due to its featureless absorption spectra and moderate density, it's likely covered in a thick, Venus-like atmosphere.</Page>
             <Page>Its atmosphere is likely thinner than that of planet b, and made of either carbon dioxide or water vapor.</Page>
         </Dialogue>
-        <DialogueOptionList>
+        <DialogueOptionsList>
             <DialogueOption>
                 <Text>Back</Text>
                 <DialogueTarget>Start</DialogueTarget>
             </DialogueOption>
-        </DialogueOptionList>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Exit</Name>
+        <Dialogue>
+            <Page>...</Page>
+        </Dialogue>
     </DialogueNode>
 
 </DialogueTree>

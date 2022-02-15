@@ -1,5 +1,5 @@
 <DialogueTree>
-    <NameField>e</NameField>
+    <NameField>Rover</NameField>
 
     <DialogueNode>
         <Name>Start</Name>
@@ -7,7 +7,7 @@
         <Dialogue>
             <Page>TRAPPIST-1e is the fourth planet around the star TRAPPIST-1.</Page>
         </Dialogue>
-        <DialogueOptionList>
+        <DialogueOptionsList>
             <DialogueOption>
                 <Text>Overview</Text>
                 <DialogueTarget>Overview</DialogueTarget>
@@ -24,7 +24,11 @@
                 <Text>Life</Text>
                 <DialogueTarget>Life</DialogueTarget>
             </DialogueOption>
-        </DialogueOptionList>
+            <DialogueOption>
+                <Text>[Exit]</Text>
+                <DialogueTarget>Exit</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
     </DialogueNode>
 
     <DialogueNode>
@@ -35,12 +39,12 @@
             <Page>Assuming a compact atmosphere, it is warm enough for liquid water to pool on it's surface.</Page>
             <Page>It is one of the best candidates for extraterrestrial life found so far.</Page>
         </Dialogue>
-        <DialogueOptionList>
+        <DialogueOptionsList>
             <DialogueOption>
                 <Text>Back</Text>
                 <DialogueTarget>Start</DialogueTarget>
             </DialogueOption>
-        </DialogueOptionList>
+        </DialogueOptionsList>
     </DialogueNode>
 
     <DialogueNode>
@@ -50,12 +54,12 @@
             <Page>It could have a compact, Earth-like atmosphere, making it a good place for finding life.</Page>
             <Page>Or it may instead have a thin Mars-like atmosphere, or no atmosphere at all.</Page>
         </Dialogue>
-        <DialogueOptionList>
+        <DialogueOptionsList>
             <DialogueOption>
                 <Text>Back</Text>
                 <DialogueTarget>Start</DialogueTarget>
             </DialogueOption>
-        </DialogueOptionList>
+        </DialogueOptionsList>
     </DialogueNode>
 
     <DialogueNode>
@@ -66,12 +70,12 @@
             <Page>Due to the heat of the day side and cold of the night side, liquid water may only be possible along the terminator.</Page>
             <Page>However, the atmosphere may be able to distribute hear across the planet's surface, allowing liquid water anywhere on the surface.</Page>
         </Dialogue>
-        <DialogueOptionList>
+        <DialogueOptionsList>
             <DialogueOption>
                 <Text>Back</Text>
                 <DialogueTarget>Start</DialogueTarget>
             </DialogueOption>
-        </DialogueOptionList>
+        </DialogueOptionsList>
     </DialogueNode>
 
     <DialogueNode>
@@ -81,12 +85,19 @@
             <Page>It (might) have all the components, Earth-like mass and radius, Earth-like atmosphere and a (relatively) moderate amount of liquid water.</Page>
             <Page>If life does exist on this planet, any plant life could not be green like as depicted due to the dim, reddish light coming from TRAPPIST-1, it would probably be black.</Page>
         </Dialogue>
-        <DialogueOptionList>
+        <DialogueOptionsList>
             <DialogueOption>
                 <Text>Back</Text>
                 <DialogueTarget>Start</DialogueTarget>
             </DialogueOption>
-        </DialogueOptionList>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Exit</Name>
+        <Dialogue>
+            <Page>...</Page>
+        </Dialogue>
     </DialogueNode>
 
 </DialogueTree>

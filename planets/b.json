@@ -36,13 +36,13 @@
     "Signal": {
         "signals": [
             {
-                "position": {"x": 30.36487, "y": -57.60553, "z": 223.0917},
+                "position": {"x": 38.98884, "y": -32.33257, "z": 225.3887},
                 "frequency": "Radio",
-                "name": "b signal",
+                "name": "Rover b",
                 "audioClip": "OW_PR_ProbeInAirSound",
-                "sourceRadius": 1,
-                "detectionRadius": 15,
-                "identificationRadius": 3,
+                "sourceRadius": 2,
+                "detectionRadius": 25,
+                "identificationRadius": 6,
                 "onlyAudibleToScope": true
             }
         ]
@@ -50,7 +50,7 @@
     "Props": {
         "dialogue": [
             {
-                "position": {"x": 30.36487, "y": -57.60553, "z": 223.0917},
+                "position": {"x": 38.98884, "y": -32.33257, "z": 226},
                 "xmlFile": "planets/assets/b.xml"
             }
         ],
@@ -58,7 +58,7 @@
             {
                 "assetBundle" : "planets/assetbundle/rss",
                 "path" : "Assets/RSS/Prefabs/Rover.prefab",
-                "position" : {"x": 30.36487, "y": -57.60553, "z": 223.0917},
+                "position" : {"x": 38.98884, "y": -32.33257, "z": 225.3887},
                 "alignToNormal" : true
             }
         ]

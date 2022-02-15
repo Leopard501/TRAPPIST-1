@@ -1,5 +1,5 @@
 <DialogueTree>
-    <NameField>d</NameField>
+    <NameField>Rover</NameField>
 
     <DialogueNode>
         <Name>Start</Name>
@@ -7,7 +7,7 @@
         <Dialogue>
             <Page>TRAPPIST-1d is the third planet around the star TRAPPIST-1.</Page>
         </Dialogue>
-        <DialogueOptionList>
+        <DialogueOptionsList>
             <DialogueOption>
                 <Text>Overview</Text>
                 <DialogueTarget>Overview</DialogueTarget>
@@ -24,7 +24,11 @@
                 <Text>Life</Text>
                 <DialogueTarget>Life</DialogueTarget>
             </DialogueOption>
-        </DialogueOptionList>
+            <DialogueOption>
+                <Text>[Exit]</Text>
+                <DialogueTarget>Exit</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
     </DialogueNode>
 
     <DialogueNode>
@@ -35,12 +39,12 @@
             <Page>It also likely contains a significant amount of water, hundreds of times all of Earth's oceans combined, although what state that water is in is hotly debated.</Page>
             <Page>Because of this, it may be a possible candidate for finding extraterrestrial life.</Page>
         </Dialogue>
-        <DialogueOptionList>
+        <DialogueOptionsList>
             <DialogueOption>
                 <Text>Back</Text>
                 <DialogueTarget>Start</DialogueTarget>
             </DialogueOption>
-        </DialogueOptionList>
+        </DialogueOptionsList>
     </DialogueNode>
 
     <DialogueNode>
@@ -50,12 +54,12 @@
             <Page>Because of the solar radiation coming off of TRAPPIST-1, many scientists have reason to believe it has a thick, Venus like water vapor atmosphere.</Page>
             <Page>However, this is not certain, and it may also have a compact Earth-like atmosphere like as depicted.</Page>
         </Dialogue>
-        <DialogueOptionList>
+        <DialogueOptionsList>
             <DialogueOption>
                 <Text>Back</Text>
                 <DialogueTarget>Start</DialogueTarget>
             </DialogueOption>
-        </DialogueOptionList>
+        </DialogueOptionsList>
     </DialogueNode>
 
     <DialogueNode>
@@ -65,12 +69,12 @@
             <Page>It may be uniformly liquid like as depicted, or it could be frozen on the night side, depending on how the atmosphere is able to distribute heat.</Page>
             <Page>Regardless, the water near the seafloor may be very warm due to tidal hearing from the nearby planets.</Page>
         </Dialogue>
-        <DialogueOptionList>
+        <DialogueOptionsList>
             <DialogueOption>
                 <Text>Back</Text>
                 <DialogueTarget>Start</DialogueTarget>
             </DialogueOption>
-        </DialogueOptionList>
+        </DialogueOptionsList>
     </DialogueNode>
 
     <DialogueNode>
@@ -83,12 +87,19 @@
             <Page>Other's believe the reddish, mostly infrared light coming from TRAPPIST-1 may make photosynthesis difficult.</Page>
             <Page>Only time will tell.</Page>
         </Dialogue>
-        <DialogueOptionList>
+        <DialogueOptionsList>
             <DialogueOption>
                 <Text>Back</Text>
                 <DialogueTarget>Start</DialogueTarget>
             </DialogueOption>
-        </DialogueOptionList>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Exit</Name>
+        <Dialogue>
+            <Page>...</Page>
+        </Dialogue>
     </DialogueNode>
 
 </DialogueTree>
