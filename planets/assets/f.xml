@@ -1,0 +1,102 @@
+<DialogueTree>
+    <NameField>Rover</NameField>
+
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>TRAPPIST-1f is the fifth planet around the star TRAPPIST-1.</Page>
+        </Dialogue>
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>Overview</Text>
+                <DialogueTarget>Overview</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>Atmosphere</Text>
+                <DialogueTarget>Atmosphere</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>Water</Text>
+                <DialogueTarget>Water</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>Life</Text>
+                <DialogueTarget>Life</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>[Exit]</Text>
+                <DialogueTarget>Exit</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Overview</Name>
+        <Dialogue>
+            <Page>TRAPPIST-1f is a terrestrial planet similar in size to Earth orbiting on the very edge of TRAPPIST-1's habitable zone.</Page>
+            <Page>It receives only around 40% of the light Earth does, although this is still warm enough for there to be liquid water on its surface, given the right atmosphere.</Page>
+            <Page>Newer studies suggest it has an oxygen atmosphere and is completely covered with oceans over a hundred kilometers deep.</Page>
+            <Page>Because of the liquid water it is a possible candidate for extraterrestrial life.</Page>
+        </Dialogue>
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>Back</Text>
+                <DialogueTarget>Start</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Atmosphere</Name>
+        <Dialogue>
+            <Page>Older studies claimed that TRAPPIST-1f has a thick water vapor atmosphere, although a newer study suggests its atmosphere is composed of abiotic oxygen.</Page>
+            <Page>This atmosphere may be enough to warm the planet enough to allow liquid water on its surface.</Page>
+        </Dialogue>
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>Back</Text>
+                <DialogueTarget>Start</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Water</Name>
+        <Dialogue>
+            <Page>TRAPPIST-1f is about 20% water by mass, many, many times all of Earth's oceans combined.</Page>
+            <Page>If the atmospheric conditions are right, much of that could be liquid.</Page>
+            <Page>Because of the low light lever, it may only be possible for liquid water to exist on the day side, with the night side always frozen.</Page>
+            <Page>Although movement of heat in the atmosphere may be enough to keep all the water liquid.</Page>
+        </Dialogue>
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>Back</Text>
+                <DialogueTarget>Start</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Life</Name>
+        <Dialogue>
+            <Page>TRAPPIST-1f is a decent candidate for finding extraterrestrial life due to its liquid water.</Page>
+            <Page>However, the dim, reddish light may not be enough to sustain photosynthesis.</Page>
+            <Page>Maybe life could exist solely near the ocean floor, gathering energy from the heat created through tidal forces.</Page>
+        </Dialogue>
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>Back</Text>
+                <DialogueTarget>Start</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Exit</Name>
+        <Dialogue>
+            <Page>...</Page>
+        </Dialogue>
+    </DialogueNode>
+
+</DialogueTree>

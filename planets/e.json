@@ -9,8 +9,8 @@
         "surfaceGravity": 10
     },
     "Spawn": {
-        "playerSpawnPoint": {"x": 124.9258, "y": -110.7529, "z": 89.19987},
-        "shipSpawnPoint": {"x": 124.9258, "y": -110.7529, "z": 89.19987},
+        "playerSpawnPoint": {"x": 0, "y": 0, "z": 200},
+        "shipSpawnPoint": {"x": 0, "y": 0, "z": 200},
         "startWithSuit": true
     },
     "Orbit": {
