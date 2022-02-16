@@ -6,7 +6,6 @@
 
 ![Current version](https://img.shields.io/github/manifest-json/v/Leopard501/TRAPPIST-1)
 ![Total Downloads](https://img.shields.io/github/downloads/Leopard501/TRAPPIST-1/total)
-![Latest Downloads](https://img.shields.io/github/downloads/Leopard501/TRAPPIST-1/latest/total)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Leopard501/TRAPPIST-1)
 
 Explore a depiction of the TRAPPIST-1 system, a collection of seven terrestrial planets hugging close to a small 
