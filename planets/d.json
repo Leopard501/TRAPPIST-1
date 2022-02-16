@@ -12,7 +12,9 @@
         "semiMajorAxis": 4454,
         "primaryBody": "TRAPPIST-1",
         "isTidallyLocked": true,
-        "showOrbitLine": true
+        "showOrbitLine": true,
+        "argumentOfPeriapsis": 37,
+        "tint": {"r": 20, "G": 40, "B": 200}
     },
     "HeightMap": {
         "heightMap": "planets/assets/d_heightmap.png",
