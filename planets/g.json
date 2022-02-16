@@ -32,5 +32,35 @@
         "fogDensity": 1,
         "hasAtmosphere": true,
         "atmosphereTint": {"R": 255, "G": 255, "B": 255}
+    },
+    "Signal": {
+        "signals": [
+            {
+                "position": {"x": 153.7375, "y": -17.66624, "z": 167.8682},
+                "frequency": "Radio",
+                "name": "Rover g",
+                "audioClip": "OW_PR_ProbeInAirSound",
+                "sourceRadius": 2,
+                "detectionRadius": 25,
+                "identificationRadius": 6,
+                "onlyAudibleToScope": true
+            }
+        ]
+    },
+    "Props": {
+        "dialogue": [
+            {
+                "position": {"x": 154.7375, "y": -17.66624, "z": 168.8682},
+                "xmlFile": "planets/assets/g.xml"
+            }
+        ],
+        "details": [
+            {
+                "assetBundle" : "planets/assetbundle/rss",
+                "path" : "Assets/RSS/Prefabs/Rover.prefab",
+                "position" : {"x": 153.7375, "y": -17.66624, "z": 167.8682},
+                "alignToNormal" : true
+            }
+        ]
     }
 }

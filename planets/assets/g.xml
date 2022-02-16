@@ -1,0 +1,45 @@
+<DialogueTree>
+    <NameField>Rover</NameField>
+
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>TRAPPIST-1g is the sixth planet around the star TRAPPIST-1.</Page>
+        </Dialogue>
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>Overview</Text>
+                <DialogueTarget>Overview</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>[Exit]</Text>
+                <DialogueTarget>Exit</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Overview</Name>
+        <Dialogue>
+            <Page>TRAPPIST-1f is a terrestrial planet similar in size to Earth orbiting beyond TRAPPIST-1's frost line.</Page>
+            <Page>Because of its low density, it is likely to contain a significant amount of water, although probably not as a liquid, at least on its surface.</Page>
+            <Page>It could be entirely frozen over, with the only liquid water being deep under its surface heated through tidal forces.</Page>
+            <Page>Or it could be covered in a steam atmosphere, heating the surface to a high temperature.</Page>
+        </Dialogue>
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>Back</Text>
+                <DialogueTarget>Start</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Exit</Name>
+        <Dialogue>
+            <Page>...</Page>
+        </Dialogue>
+    </DialogueNode>
+
+</DialogueTree>
