@@ -19,7 +19,6 @@ made in a video game. Check the sources for more accurate and in-depth info.
   - https://exoplanets.nasa.gov/news/1481/new-clues-to-compositions-of-trappist-1-planets/
   - https://link.springer.com/article/10.1007/s11214-020-00719-1#Sec22  
   - https://www.aanda.org/articles/aa/full_html/2018/05/aa32233-17/aa32233-17.html#S16
-  - https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html
   - https://www.liebertpub.com/doi/10.1089/ast.2020.2277
   - https://www.aanda.org/articles/aa/full_html/2018/05/aa32233-17/aa32233-17.html
 

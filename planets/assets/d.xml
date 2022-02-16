@@ -34,7 +34,8 @@
     <DialogueNode>
         <Name>Overview</Name>
         <Dialogue>
-            <Page>TRAPPIST-1d is a small terrestrial planet orbiting near the middle of TRAPPIST-1's habitable zone.</Page>
+            <Page>TRAPPIST-1d is a small terrestrial planet orbiting within TRAPPIST-1's habitable zone.</Page>
+            <Page>It is tidally locked to TRAPPIST-1, with one side always bright and the other always dark.</Page>
             <Page>It receives about 110% the light earth does, putting it just before the middle of the habitable zone.</Page>
             <Page>It also likely contains a significant amount of water, hundreds of times all of Earth's oceans combined, although what state that water is in is hotly debated.</Page>
             <Page>Because of this, it may be a possible candidate for finding extraterrestrial life.</Page>
