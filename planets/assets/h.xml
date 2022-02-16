@@ -1,0 +1,64 @@
+<DialogueTree>
+    <NameField>Rover</NameField>
+
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>TRAPPIST-1h is the last planet around the star TRAPPIST-1.</Page>
+        </Dialogue>
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>Overview</Text>
+                <DialogueTarget>Overview</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>Geysers</Text>
+                <DialogueTarget>Geysers</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>[Exit]</Text>
+                <DialogueTarget>Exit</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Overview</Name>
+        <Dialogue>
+            <Page>TRAPPIST-1h is a small, icy planet just 30% of Earth's mass orbiting far from TRAPPIST-1.</Page>
+            <Page>But due to how compact the system is, that's still only 6% Earth's distance from the sun.</Page>
+            <Page>It is very dim and cold, receiving just around 15% of the light level Earth does, and its surface is over a hundred below freezing.</Page>
+            <Page>It probably has no atmosphere, and it is likely covered in a significant amount of ice, more than all of Earth's oceans combined.</Page>
+        </Dialogue>
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>Back</Text>
+                <DialogueTarget>Start</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Geysers</Name>
+        <Dialogue>
+            <Page>Tidal heating from the nearby planets may be able to melt the ice deep under the planets surface, creating subsurface oceans.</Page>
+            <Page>It may also be able to force water to the surface in the form of geysers, like Saturn's moon Enceladus.</Page>
+            <Page>But this is purely speculative.</Page>
+        </Dialogue>
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>Back</Text>
+                <DialogueTarget>Start</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>Exit</Name>
+        <Dialogue>
+            <Page>...</Page>
+        </Dialogue>
+    </DialogueNode>
+
+</DialogueTree>
