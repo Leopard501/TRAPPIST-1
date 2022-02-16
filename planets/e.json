@@ -9,8 +9,8 @@
         "surfaceGravity": 10
     },
     "Spawn": {
-        "playerSpawnPoint": {"x": 0, "y": 0, "z": 200},
-        "shipSpawnPoint": {"x": 0, "y": 0, "z": 200},
+        "playerSpawnPoint": {"x": -110.5498, "y": 104.11693, "z": -139.9444},
+        "shipSpawnPoint": {"x": -110.5498, "y": 104.11693, "z": -139.9444},
         "startWithSuit": true
     },
     "Orbit": {
@@ -40,12 +40,12 @@
     "Signal": {
         "signals": [
             {
-                "position": {"x": 80.67891, "y": -46.22113, "z": 160.575},
+                "position": {"x": -18.97633, "y": -35.44348, "z": 182.7496},
                 "frequency": "Radio",
                 "name": "Rover e",
                 "audioClip": "OW_PR_ProbeInAirSound",
                 "sourceRadius": 2,
-                "detectionRadius": 25,
+                "detectionRadius": 50,
                 "identificationRadius": 6,
                 "onlyAudibleToScope": true
             }
@@ -54,7 +54,7 @@
     "Props": {
         "dialogue": [
             {
-                "position": {"x": 80.67891, "y": -46.22113, "z": 161.575},
+                "position": {"x": -18.97633, "y": -35.44348, "z": 183.7496},
                 "xmlFile": "planets/assets/e.xml"
             }
         ],
@@ -62,7 +62,7 @@
             {
                 "assetBundle" : "planets/assetbundle/rss",
                 "path" : "Assets/RSS/Prefabs/Rover.prefab",
-                "position" : {"x": 80.67891, "y": -46.22113, "z": 160.575},
+                "position" : {"x": -18.97633, "y": -35.44348, "z": 182.7496},
                 "alignToNormal" : true
             },
 

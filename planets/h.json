@@ -30,7 +30,7 @@
                 "name": "Rover h",
                 "audioClip": "OW_PR_ProbeInAirSound",
                 "sourceRadius": 2,
-                "detectionRadius": 25,
+                "detectionRadius": 50,
                 "identificationRadius": 6,
                 "onlyAudibleToScope": true
             }
