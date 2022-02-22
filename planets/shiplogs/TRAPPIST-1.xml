@@ -1,0 +1,17 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/ship-log/NewHorizons/shiplog_schema.xsd">
+    <ID>TRAPPIST-1</ID>
+
+    <Entry>
+        <ID>TRAPPIST-1_ENTRY</ID>
+        <Name>The TRAPPIST-1 system</Name>
+
+        <Curiosity>TRAPPIST-1_CURIOSITY</Curiosity>
+        <isCuriosity/>
+
+        <ExploreFact>
+            <ID>TRAPPIST-1_FACT</ID>
+            <Text>A system of seven terrestrial planets all tidally locked to an ultracool red dwarf.</Text>
+        </ExploreFact>
+
+    </Entry>
+</AstroObjectEntry>

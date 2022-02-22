@@ -15,5 +15,20 @@
         "tint": {"R": 255, "G": 100, "B": 0, "A": 255},
         "solarFlareTint": {"R": 255, "G": 50, "B": 0, "A": 255},
         "solarLuminosity": 0.6
+    },
+    "ShipLog": {
+        "xmlFile": "planets/shiplogs/TRAPPIST-1.xml",
+        "spriteFolder": "planets/shiplogs/sprites",
+        "initialReveal": ["TRAPPIST-1_FACT"],
+        "Curiosities": [
+            {
+                "id": "TRAPPIST-1_CURIOSITY",
+                "color": {"R": 255, "G": 75, "B": 0, "A": 255},
+                "highlightColor": {"R": 255, "G": 125, "B": 70, "A": 255}
+            }
+        ],
+        "MapMode": {
+            "revealedSprite": "planets/shiplogs/sprites/TRAPPIST-1_map_mode.png"
+        }
     }
 }

@@ -1,0 +1,36 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/ship-log/NewHorizons/shiplog_schema.xsd">
+    <ID>B</ID>
+
+    <Entry>
+        <ID>B_ENTRY</ID>
+        <Name>Planet b</Name>
+
+        <Curiosity>TRAPPIST-1_CURIOSITY</Curiosity>
+
+        <RumorFact>
+            <ID>B_RUMOR</ID>
+            <SourceID>TRAPPIST-1_ENTRY</SourceID>
+            <RumorName>Planet b</RumorName>
+            <Text>The closest planet to TRAPPIST-1.</Text>
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>B_LANDING</ID>
+            <Text>TRAPPIST-1b is a tidally locked Venusian magma planet. It is slightly larger than Earth and orbiting extremely close to TRAPPIST-1.</Text>
+        </ExploreFact>
+
+        <Entry>
+            <ID>B_ROVER_ENTRY</ID>
+            <Name>Rover b</Name>
+
+            <Curiosity>TRAPPIST-1_CURIOSITY</Curiosity>
+
+            <ExploreFact>
+                <ID>B_ROVER</ID>
+                <Text>I found a rover that gives more in-depth info on the real TRAPPIST-1b.</Text>
+            </ExploreFact>
+
+        </Entry>
+
+    </Entry>
+</AstroObjectEntry>

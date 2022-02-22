@@ -40,7 +40,7 @@
         "dialogue": [
             {
                 "position": {"x": 143.1222, "y": -21.08127, "z": 49.38688},
-                "xmlFile": "planets/assets/h.xml"
+                "xmlFile": "planets/dialogue/h.xml"
             }
         ],
         "details": [
@@ -62,17 +62,17 @@
                 "alignToNormal": true
             },
             {
-                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_2/Crater_2_Geysers/QuantumGeyser_Small/Geyser_Quantum (2)",
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_2/Crater_2_Geysers/QuantumGeyser_Small/Geyser_Quantum",
                 "position": {"x": 125.3298, "y": -33.89057, "z": 65.67601},
                 "alignToNormal": true
             },
             {
-                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_2/Crater_2_Geysers/QuantumGeyser_Small/Geyser_Quantum (3)",
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_2/Crater_2_Geysers/QuantumGeyser_Small/Geyser_Quantum (1)",
                 "position": {"x": 95.7558, "y": 90.83143, "z": 61.59458},
                 "alignToNormal": true
             },
             {
-                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_2/Crater_2_Geysers/QuantumGeyser_Small/Geyser_Quantum (4)",
+                "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_2/Crater_2_Geysers/QuantumGeyser_Small/Geyser_Quantum",
                 "position": {"x": -127.0082, "y": -49.0346, "z": 47.58002},
                 "alignToNormal": true
             }

@@ -52,7 +52,7 @@
         "dialogue": [
             {
                 "position": {"x": 57.90136, "y": 130, "z": 151},
-                "xmlFile": "planets/assets/c.xml"
+                "xmlFile": "planets/dialogue/c.xml"
             }
         ],
         "details": [
