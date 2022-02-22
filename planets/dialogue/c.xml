@@ -7,6 +7,9 @@
         <Dialogue>
             <Page>TRAPPIST-1c is the second planet around the star TRAPPIST-1.</Page>
         </Dialogue>
+        <RevealFacts>
+            <FactID>C_ROVER</FactID>
+        </RevealFacts>
         <DialogueOptionsList>
             <DialogueOption>
                 <Text>Overview</Text>

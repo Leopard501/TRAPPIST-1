@@ -1,0 +1,36 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/ship-log/NewHorizons/shiplog_schema.xsd">
+    <ID>C</ID>
+
+    <Entry>
+        <ID>C_ENTRY</ID>
+        <Name>Planet c</Name>
+
+        <Curiosity>TRAPPIST-1_CURIOSITY</Curiosity>
+
+        <RumorFact>
+            <ID>C_RUMOR</ID>
+            <SourceID>TRAPPIST-1_ENTRY</SourceID>
+            <RumorName>Planet c</RumorName>
+            <Text>The second planet around TRAPPIST-1.</Text>
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>C_LANDING</ID>
+            <Text>TRAPPIST-1c is a tidally locked Venusian planet. It is slightly larger than Earth and orbiting close to TRAPPIST-1.</Text>
+        </ExploreFact>
+
+        <Entry>
+            <ID>C_ROVER_ENTRY</ID>
+            <Name>Rover c</Name>
+
+            <Curiosity>TRAPPIST-1_CURIOSITY</Curiosity>
+
+            <ExploreFact>
+                <ID>C_ROVER</ID>
+                <Text>I found a rover that gives more in-depth info on the real TRAPPIST-1c.</Text>
+            </ExploreFact>
+
+        </Entry>
+
+    </Entry>
+</AstroObjectEntry>

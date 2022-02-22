@@ -34,6 +34,14 @@
         "hasAtmosphere": true,
         "atmosphereTint": {"r" : 255, "g" : 200, "b" : 100, "a" : 255}
     },
+    "ShipLog": {
+        "xmlFile": "planets/shiplogs/c.xml",
+        "spriteFolder": "planets/shiplogs/sprites",
+        "initialReveal": ["C_RUMOR"],
+        "MapMode": {
+            "revealedSprite": "planets/shiplogs/sprites/c_map_mode.png"
+        }
+    },
     "Signal": {
         "signals": [
             {
@@ -53,6 +61,20 @@
             {
                 "position": {"x": 57.90136, "y": 130, "z": 151},
                 "xmlFile": "planets/dialogue/c.xml"
+            }
+        ],
+        "entryLocation": [
+            {
+                "id": "C_ROVER_ENTRY",
+                "position" : {"x": 57.90136, "y": 129.1138, "z": 149.9056},
+                "cloaked": false
+            }
+        ],
+        "reveal": [
+            {
+                "radius": 250,
+                "reveals": ["C_LANDING"],
+                "revealOn": "enter"
             }
         ],
         "details": [
