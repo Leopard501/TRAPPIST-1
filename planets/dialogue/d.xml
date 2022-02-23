@@ -7,6 +7,9 @@
         <Dialogue>
             <Page>TRAPPIST-1d is the third planet around the star TRAPPIST-1.</Page>
         </Dialogue>
+        <RevealFacts>
+            <FactID>D_ROVER</FactID>
+        </RevealFacts>
         <DialogueOptionsList>
             <DialogueOption>
                 <Text>Overview</Text>

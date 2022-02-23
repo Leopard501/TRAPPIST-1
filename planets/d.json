@@ -29,6 +29,14 @@
         "atmosphereTint": {"R": 40, "G": 80, "B": 255}
     },
     "Water": {"size": 156},
+    "ShipLog": {
+        "xmlFile": "planets/shiplogs/d.xml",
+        "spriteFolder": "planets/shiplogs/sprites",
+        "initialReveal": ["D_RUMOR"],
+        "MapMode": {
+            "revealedSprite": "planets/shiplogs/sprites/d_map_mode.png"
+        }
+    },
     "Signal": {
         "signals": [
             {
@@ -48,6 +56,20 @@
             {
                 "position": {"x": -102.2326, "y": -59.35938, "z": -61.94343},
                 "xmlFile": "planets/dialogue/d.xml"
+            }
+        ],
+        "entryLocation": [
+            {
+                "id": "D_ROVER_ENTRY",
+                "position" : {"x": -101.2326, "y": -59.35938, "z": -61.94343},
+                "cloaked": false
+            }
+        ],
+        "reveal": [
+            {
+                "radius": 200,
+                "reveals": ["D_LANDING"],
+                "revealOn": "enter"
             }
         ],
         "details": [

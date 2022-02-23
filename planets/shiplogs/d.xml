@@ -1,0 +1,36 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/ship-log/NewHorizons/shiplog_schema.xsd">
+    <ID>D</ID>
+
+    <Entry>
+        <ID>D_ENTRY</ID>
+        <Name>Planet d</Name>
+
+        <Curiosity>TRAPPIST-1_CURIOSITY</Curiosity>
+
+        <RumorFact>
+            <ID>D_RUMOR</ID>
+            <SourceID>TRAPPIST-1_ENTRY</SourceID>
+            <RumorName>Planet d</RumorName>
+            <Text>The third planet around TRAPPIST-1.</Text>
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>D_LANDING</ID>
+            <Text>TRAPPIST-1d is a tidally locked ocean planet with life in its waters. It is much smaller than Earth, and in TRAPPIST-1's habitable zone.</Text>
+        </ExploreFact>
+
+        <Entry>
+            <ID>D_ROVER_ENTRY</ID>
+            <Name>Rover d</Name>
+
+            <Curiosity>TRAPPIST-1_CURIOSITY</Curiosity>
+
+            <ExploreFact>
+                <ID>D_ROVER</ID>
+                <Text>I found a rover that gives more in-depth info on the real TRAPPIST-1d.</Text>
+            </ExploreFact>
+
+        </Entry>
+
+    </Entry>
+</AstroObjectEntry>
