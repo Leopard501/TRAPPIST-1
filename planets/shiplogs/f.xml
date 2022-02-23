@@ -1,0 +1,36 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/ship-log/NewHorizons/shiplog_schema.xsd">
+    <ID>F</ID>
+
+    <Entry>
+        <ID>F_ENTRY</ID>
+        <Name>Planet f</Name>
+
+        <Curiosity>TRAPPIST-1_CURIOSITY</Curiosity>
+
+        <RumorFact>
+            <ID>F_RUMOR</ID>
+            <SourceID>TRAPPIST-1_ENTRY</SourceID>
+            <RumorName>Planet f</RumorName>
+            <Text>The fifth planet around TRAPPIST-1.</Text>
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>F_LANDING</ID>
+            <Text>TRAPPIST-1f is a watery planet with the day side covered by a deep ocean and the night side with ice.</Text>
+        </ExploreFact>
+
+        <Entry>
+            <ID>F_ROVER_ENTRY</ID>
+            <Name>Rover f</Name>
+
+            <Curiosity>TRAPPIST-1_CURIOSITY</Curiosity>
+
+            <ExploreFact>
+                <ID>F_ROVER</ID>
+                <Text>I found a rover that gives more in-depth info on the real TRAPPIST-1f.</Text>
+            </ExploreFact>
+
+        </Entry>
+
+    </Entry>
+</AstroObjectEntry>

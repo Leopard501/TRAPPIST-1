@@ -7,6 +7,9 @@
         <Dialogue>
             <Page>TRAPPIST-1f is the fifth planet around the star TRAPPIST-1.</Page>
         </Dialogue>
+        <RevealFacts>
+            <FactID>F_ROVER</FactID>
+        </RevealFacts>
         <DialogueOptionsList>
             <DialogueOption>
                 <Text>Overview</Text>

@@ -33,6 +33,14 @@
         "tint": {"R": 45, "G": 45, "B": 140},
         "size": 205
     },
+    "ShipLog": {
+        "xmlFile": "planets/shiplogs/f.xml",
+        "spriteFolder": "planets/shiplogs/sprites",
+        "initialReveal": ["F_RUMOR"],
+        "MapMode": {
+            "revealedSprite": "planets/shiplogs/sprites/f_map_mode.png"
+        }
+    },
     "Signal": {
         "signals": [
             {
@@ -52,6 +60,20 @@
             {
                 "position": {"x": 202.6179, "y": -53.48906, "z": -51.96823},
                 "xmlFile": "planets/dialogue/f.xml"
+            }
+        ],
+        "entryLocation": [
+            {
+                "id": "F_ROVER_ENTRY",
+                "position" : {"x": 201.6179, "y": -53.48906, "z": -51.96823},
+                "cloaked": false
+            }
+        ],
+        "reveal": [
+            {
+                "radius": 250,
+                "reveals": ["F_LANDING"],
+                "revealOn": "enter"
             }
         ],
         "details": [
