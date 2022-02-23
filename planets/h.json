@@ -22,6 +22,14 @@
         "minHeight": 110,
         "maxHeight": 155
     },
+    "ShipLog": {
+        "xmlFile": "planets/shiplogs/h.xml",
+        "spriteFolder": "planets/shiplogs/sprites",
+        "initialReveal": ["H_RUMOR"],
+        "MapMode": {
+            "revealedSprite": "planets/shiplogs/sprites/h_map_mode.png"
+        }
+    },
     "Signal": {
         "signals": [
             {
@@ -41,6 +49,20 @@
             {
                 "position": {"x": 143.1222, "y": -21.08127, "z": 49.38688},
                 "xmlFile": "planets/dialogue/h.xml"
+            }
+        ],
+        "entryLocation": [
+            {
+                "id": "H_ROVER_ENTRY",
+                "position" : {"x": 142.1222, "y": -21.08127, "z": 49.38688},
+                "cloaked": false
+            }
+        ],
+        "reveal": [
+            {
+                "radius": 165,
+                "reveals": ["H_LANDING"],
+                "revealOn": "enter"
             }
         ],
         "details": [

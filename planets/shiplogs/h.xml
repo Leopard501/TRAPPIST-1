@@ -1,0 +1,36 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/ship-log/NewHorizons/shiplog_schema.xsd">
+    <ID>H</ID>
+
+    <Entry>
+        <ID>H_ENTRY</ID>
+        <Name>Planet h</Name>
+
+        <Curiosity>TRAPPIST-1_CURIOSITY</Curiosity>
+
+        <RumorFact>
+            <ID>H_RUMOR</ID>
+            <SourceID>TRAPPIST-1_ENTRY</SourceID>
+            <RumorName>Planet h</RumorName>
+            <Text>The last planet around TRAPPIST-1.</Text>
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>H_LANDING</ID>
+            <Text>TRAPPIST-1h is small icy planet with geysers erupting from its surface.</Text>
+        </ExploreFact>
+
+        <Entry>
+            <ID>H_ROVER_ENTRY</ID>
+            <Name>Rover h</Name>
+
+            <Curiosity>TRAPPIST-1_CURIOSITY</Curiosity>
+
+            <ExploreFact>
+                <ID>H_ROVER</ID>
+                <Text>I found a rover that gives more in-depth info on the real TRAPPIST-1h.</Text>
+            </ExploreFact>
+
+        </Entry>
+
+    </Entry>
+</AstroObjectEntry>
