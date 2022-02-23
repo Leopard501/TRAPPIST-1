@@ -28,7 +28,17 @@
         "initialReveal": ["H_RUMOR"],
         "MapMode": {
             "revealedSprite": "planets/shiplogs/sprites/h_map_mode.png"
-        }
+        },
+        "entryPositions": [
+            {
+                "id": "H_ENTRY",
+                "position": {"x": 1400, "y": 2000}
+            },
+            {
+                "id": "H_ROVER_ENTRY",
+                "position": {"x": 1400, "y": 1900}
+            }
+        ]
     },
     "Signal": {
         "signals": [

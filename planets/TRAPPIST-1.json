@@ -29,6 +29,12 @@
         ],
         "MapMode": {
             "revealedSprite": "planets/shiplogs/sprites/TRAPPIST-1_map_mode.png"
-        }
+        },
+        "entryPositions": [
+            {
+                "id": "TRAPPIST_1_ENTRY",
+                "position": {"x": 0, "y": -200}
+            }
+        ]
     }
 }

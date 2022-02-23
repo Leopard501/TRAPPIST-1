@@ -35,7 +35,17 @@
         "initialReveal": ["D_RUMOR"],
         "MapMode": {
             "revealedSprite": "planets/shiplogs/sprites/d_map_mode.png"
-        }
+        },
+        "entryPositions": [
+            {
+                "id": "D_ENTRY",
+                "position": {"x": 600, "y": 2000}
+            },
+            {
+                "id": "D_ROVER_ENTRY",
+                "position": {"x": 600, "y": 1900}
+            }
+        ]
     },
     "Signal": {
         "signals": [

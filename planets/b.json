@@ -41,7 +41,17 @@
         "initialReveal": ["B_RUMOR"],
         "MapMode": {
             "revealedSprite": "planets/shiplogs/sprites/b_map_mode.png"
-        }
+        },
+        "entryPositions": [
+            {
+                "id": "B_ENTRY",
+                "position": {"x": 200, "y": 2000}
+            },
+            {
+                "id": "B_ROVER_ENTRY",
+                "position": {"x": 200, "y": 1900}
+            }
+        ]
     },
     "Signal": {
         "signals": [

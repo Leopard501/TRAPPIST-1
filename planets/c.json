@@ -40,7 +40,17 @@
         "initialReveal": ["C_RUMOR"],
         "MapMode": {
             "revealedSprite": "planets/shiplogs/sprites/c_map_mode.png"
-        }
+        },
+        "entryPositions": [
+            {
+                "id": "C_ENTRY",
+                "position": {"x": 400, "y": 2000}
+            },
+            {
+                "id": "C_ROVER_ENTRY",
+                "position": {"x": 400, "y": 1900}
+            }
+        ]
     },
     "Signal": {
         "signals": [

@@ -39,7 +39,17 @@
         "initialReveal": ["G_RUMOR"],
         "MapMode": {
             "revealedSprite": "planets/shiplogs/sprites/g_map_mode.png"
-        }
+        },
+        "entryPositions": [
+            {
+                "id": "G_ENTRY",
+                "position": {"x": 1200, "y": 2000}
+            },
+            {
+                "id": "G_ROVER_ENTRY",
+                "position": {"x": 1200, "y": 1900}
+            }
+        ]
     },
     "Signal": {
         "signals": [
