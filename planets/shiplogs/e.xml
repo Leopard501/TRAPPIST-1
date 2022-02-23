@@ -1,0 +1,36 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/ship-log/NewHorizons/shiplog_schema.xsd">
+    <ID>E</ID>
+
+    <Entry>
+        <ID>E_ENTRY</ID>
+        <Name>Planet e</Name>
+
+        <Curiosity>TRAPPIST-1_CURIOSITY</Curiosity>
+
+        <RumorFact>
+            <ID>E_RUMOR</ID>
+            <SourceID>TRAPPIST-1_ENTRY</SourceID>
+            <RumorName>Planet e</RumorName>
+            <Text>The fourth planet around TRAPPIST-1.</Text>
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>E_LANDING</ID>
+            <Text>TRAPPIST-1e is a tidally locked Earth-like planet with liquid water and life clinging to its terminator line.</Text>
+        </ExploreFact>
+
+        <Entry>
+            <ID>E_ROVER_ENTRY</ID>
+            <Name>Rover e</Name>
+
+            <Curiosity>TRAPPIST-1_CURIOSITY</Curiosity>
+
+            <ExploreFact>
+                <ID>E_ROVER</ID>
+                <Text>I found a rover that gives more in-depth info on the real TRAPPIST-1e.</Text>
+            </ExploreFact>
+
+        </Entry>
+
+    </Entry>
+</AstroObjectEntry>
