@@ -13,7 +13,7 @@ ultracool red dwarf star. All the planets are tidally locked, with one side alwa
 always facing away. Three of the planets are in the habitable zone, making the TRAPPIST-1 system one of the most 
 promising known places to find extraterrestrial life.  
   
-Depictions are purely speculative, based on unfinished and contradictory research, not to mention the fact this is all 
+Planet names are made up by me. Depictions are purely speculative, based on unfinished and contradictory research, not to mention the fact this is all 
 made in a video game. Check the sources for more accurate and in-depth info.
 
 ### Screenshots
