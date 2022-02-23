@@ -1,0 +1,36 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/ship-log/NewHorizons/shiplog_schema.xsd">
+    <ID>G</ID>
+
+    <Entry>
+        <ID>G_ENTRY</ID>
+        <Name>Planet g</Name>
+
+        <Curiosity>TRAPPIST-1_CURIOSITY</Curiosity>
+
+        <RumorFact>
+            <ID>G_RUMOR</ID>
+            <SourceID>TRAPPIST-1_ENTRY</SourceID>
+            <RumorName>Planet g</RumorName>
+            <Text>The sixth planet around TRAPPIST-1.</Text>
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>G_LANDING</ID>
+            <Text>TRAPPIST-1g is hot planet with a thick steam atmosphere, with its surface paradoxically covered in ice.</Text>
+        </ExploreFact>
+
+        <Entry>
+            <ID>G_ROVER_ENTRY</ID>
+            <Name>Rover g</Name>
+
+            <Curiosity>TRAPPIST-1_CURIOSITY</Curiosity>
+
+            <ExploreFact>
+                <ID>G_ROVER</ID>
+                <Text>I found a rover that gives more in-depth info on the real TRAPPIST-1g.</Text>
+            </ExploreFact>
+
+        </Entry>
+
+    </Entry>
+</AstroObjectEntry>

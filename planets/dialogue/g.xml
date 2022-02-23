@@ -7,6 +7,9 @@
         <Dialogue>
             <Page>TRAPPIST-1g is the sixth planet around the star TRAPPIST-1.</Page>
         </Dialogue>
+        <RevealFacts>
+            <FactID>G_ROVER</FactID>
+        </RevealFacts>
         <DialogueOptionsList>
             <DialogueOption>
                 <Text>Overview</Text>

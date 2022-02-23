@@ -12,7 +12,7 @@
         "semiMajorAxis": 9366,
         "primaryBody": "TRAPPIST-1",
         "isTidallyLocked": true,
-        "showOrbitLine": true,
+        "showOrbitLine": true
     },
     "HeightMap": {
         "heightMap": "planets/assets/g_heightmap.png",
@@ -33,6 +33,14 @@
         "hasAtmosphere": true,
         "atmosphereTint": {"R": 255, "G": 255, "B": 255}
     },
+    "ShipLog": {
+        "xmlFile": "planets/shiplogs/g.xml",
+        "spriteFolder": "planets/shiplogs/sprites",
+        "initialReveal": ["G_RUMOR"],
+        "MapMode": {
+            "revealedSprite": "planets/shiplogs/sprites/g_map_mode.png"
+        }
+    },
     "Signal": {
         "signals": [
             {
@@ -52,6 +60,20 @@
             {
                 "position": {"x": 154.7375, "y": -17.66624, "z": 168.8682},
                 "xmlFile": "planets/dialogue/g.xml"
+            }
+        ],
+        "entryLocation": [
+            {
+                "id": "G_ROVER_ENTRY",
+                "position" : {"x": 153.7375, "y": -17.66624, "z": 167.8682},
+                "cloaked": false
+            }
+        ],
+        "reveal": [
+            {
+                "radius": 300,
+                "reveals": ["G_LANDING"],
+                "revealOn": "enter"
             }
         ],
         "details": [
